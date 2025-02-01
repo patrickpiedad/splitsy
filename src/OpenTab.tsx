@@ -28,8 +28,8 @@ function OpenTab() {
                                         <SelectValue placeholder="Select"/>
                                     </SelectTrigger>
                                     <SelectContent position="popper">
-                                        <SelectItem value="trip">Trip</SelectItem>
-                                        <SelectItem value="home">Home</SelectItem>
+                                        <SelectItem value="Home">Home</SelectItem>
+                                        <SelectItem value="Trip">Trip</SelectItem>
                                         <SelectItem value="couple">Couple</SelectItem>
                                         <SelectItem value="other">Other</SelectItem>
                                     </SelectContent>
