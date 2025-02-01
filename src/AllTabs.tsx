@@ -5,7 +5,7 @@ import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@/compo
 function AllTabs() {
 
     return (
-        <div className="flex flex-col w-screen">
+        <main className="flex flex-col w-screen">
 
             <Card
                 className="w-full flex flex-col justify-center items-center text-center bg-gray-500 text-4xl text-white">
@@ -22,7 +22,7 @@ function AllTabs() {
 
             </Card>
 
-        </div>
+        </main>
     )
 
 }
