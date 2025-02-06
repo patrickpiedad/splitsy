@@ -12,6 +12,27 @@ function Tab() {
             name: "Car Rental",
             price: 400.00
         },
+        {
+            id: 2,
+            name: "Flight ",
+            price: 1200.00
+        },
+        {
+            id: 3,
+            name: "Dinner",
+            price: 150.00
+        },
+
+        {
+            id: 4,
+            name: "Drinks",
+            price: 300.00
+        },
+        {
+            id: 5,
+            name: "Gondola Tickets",
+            price: 75.00
+        },
     ]
 
     return (
@@ -25,7 +46,7 @@ function Tab() {
 
                 <CardContent>
 
-                    <Table className="w-[400px] text-white text-xl">
+                    <Table className="w-[400px] text-white text-l">
                         <TableHeader>
                             <TableRow>
                                 <TableHead className="!text-white text-left">Expense</TableHead>
